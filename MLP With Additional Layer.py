@@ -77,6 +77,8 @@ mlp.fit(X, y)
 # make predictions on the test data
 y_pred = mlp.predict(X)
 
-# evaluate the accuracy of the MLP
+# evaluate the accuracy of the MLP 
 accuracy = np.mean(y_pred == y)
 print(f"Accuracy: {accuracy:.2f}")
+
+
